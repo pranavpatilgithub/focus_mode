@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Blocked - Focus Mode</title>
+  <link rel="stylesheet" href="styles/block.css">
+</head>
+<body>
+  <div class="container">
+    <div class="block-message">
+      <div class="icon">⚠️</div>
+      <h1>This website is blocked</h1>
+      <p id="domain-message">You're trying to access <span id="blocked-domain"></span></p>
+      <p>If it is urgent for you to access it, the website will be unblocked for the next 15 minutes of usage time.</p>
+      <div class="actions">
+        <button id="unblockBtn" class="btn unblock-btn">Unblock for 15 minutes</button>
+        <button id="cancelBtn" class="btn cancel-btn">No, keep focused</button>
+      </div>
+    </div>
+  </div>
+  <script src="block.js"></script>
+</body>
+</html>
